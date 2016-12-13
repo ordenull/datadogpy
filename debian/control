@@ -13,7 +13,7 @@ Package: python-datadog
 Architecture: any
 Depends: ${misc:Depends}, ${python:Depends}
 Provides: ${python:Provides}
-  Description: Datadogpy is a collection of tools suitable for
+Description: Datadogpy is a collection of tools suitable for
   inclusion in existing Python projects or for development of
   standalone scripts. It provides an abstraction on top of
   Datadog's raw HTTP interface and agent's StatsD metrics
