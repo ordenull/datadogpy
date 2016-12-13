@@ -1,0 +1,21 @@
+Source: python-datadog
+Section: python
+Priority: optional
+Maintainer: Stan Borbat <stan@borbat.com>
+Build-Depends: debhelper (>= 5.0.37.2)
+Standards-Version: 3.9.6
+Homepage: https://github.com/DataDog/datadogpy.git
+Vcs-Git: https://github.com/ordenull/datadogpy.git
+Vcs-Browser: https://github.com/ordenull/datadogpy
+X-Python-Version: >= 2.7
+
+Package: python-datadog
+Architecture: any
+Depends: ${misc:Depends}, ${python:Depends}
+Provides: ${python:Provides}
+Description: Datadogpy is a collection of tools suitable for
+  inclusion in existing Python projects or for development of
+  standalone scripts. It provides an abstraction on top of
+  Datadog's raw HTTP interface and agent's StatsD metrics
+  aggregation server, to interact with Datadog and efficiently 
+  report events and metrics.
