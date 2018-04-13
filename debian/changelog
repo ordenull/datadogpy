@@ -1,0 +1,12 @@
+python3-datadog (0.19.0) xenial; urgency=medium
+
+  * Version bump from upstream
+  * Now building for python3
+
+ -- Stan Borbat <stan@borbat.com>  Fri, 13 Dec 2018 18:00:00 +0000
+
+python3-datadog (0.6.1) xenial; urgency=medium
+
+  * Initial release
+
+ -- Stan Borbat <stan@borbat.com>  Tue, 13 Dec 2016 18:00:00 +0000
