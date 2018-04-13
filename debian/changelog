@@ -1,6 +1,7 @@
 python-datadog (0.20.0) xenial; urgency=medium
 
   * Version bump from upstream
+  * Now building for python3
 
  -- Stan Borbat <stan@borbat.com>  Fri, 13 Dec 2018 18:00:00 +0000
 

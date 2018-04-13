@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-%:
-	dh $@ --with python2 --with python3
+export PYBUILD_NAME = datadog
 
-override_dh_auto_clean:
+%:
+	dh $@ --with python3 --buildsystem=pybuild
