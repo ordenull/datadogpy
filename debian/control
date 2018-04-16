@@ -12,6 +12,7 @@ X-Python3-Version: >= 3.5
 Package: python3-datadog
 Architecture: any
 Depends: ${misc:Depends}, ${python3:Depends}, python3-simplejson, python3-decorator, python3-requests
+Replaces: python-datadog
 Description: Datadogpy is a collection of tools suitable for
   inclusion in existing Python projects or for development of
   standalone scripts. It provides an abstraction on top of
